@@ -4,19 +4,22 @@ import {
   ux,
   prototyping,
   javascript,
+  typescript,
   html,
   css,
   git,
   docker,
   postgresql,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  kubernetes,
+  java,
+  python,
   practitioner,
   foundation,
   azure,
-  deloitte
+  deloitte,
+  primevideo,
+  synology,
+  hsu
 } from "../assets";
 
 export const navLinks = [
@@ -26,7 +29,7 @@ export const navLinks = [
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Certificates',
   },
   {
     id: 'contact',
@@ -54,22 +57,30 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
-    name: 'JavaScript',
-    icon: javascript,
-  },
   // {
-  //   name: 'TypeScript',
-  //   icon: typescript,
+  //   name: 'HTML 5',
+  //   icon: html,
   // },
+  // {
+  //   name: 'CSS 3',
+  //   icon: css,
+  // },
+  // {
+  //   name: 'JavaScript',
+  //   icon: javascript,
+  // },
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'Python',
+    icon: python,
+  },
+  {
+    name: 'TypeScript',
+    icon: typescript,
+  },
   // {
   //   name: 'React JS',
   //   icon: reactjs,
@@ -94,9 +105,13 @@ const technologies = [
   //   name: 'graphql',
   //   icon: graphql,
   // },
+  // {
+  //   name: 'postgresql',
+  //   icon: postgresql,
+  // },
   {
-    name: 'postgresql',
-    icon: postgresql,
+    name: 'kubernetes',
+    icon: kubernetes,
   },
   {
     name: 'git',
@@ -110,32 +125,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'DevOps Engineer',
-    company_name: 'Ellocent Labs',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'May 2022 - Present',
+    title: 'Software Engineer',
+    company_name: 'Prime Video',
+    icon: primevideo,
+    iconBg: '#FFFFFF',
+    date: 'Feb 2023 - Present',
   },
   {
-    title: 'Softwaree Engineer associate',
-    company_name: 'Xenonstack',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Jan 2022 - Apr 2022',
+    title: 'Support Engineer',
+    company_name: 'Prime Video',
+    icon: primevideo,
+    iconBg: '#FFFFFF',
+    date: 'Aug 2021 - Feb 2023',
   },
   {
-    title: 'Clound Engineer Intern',
-    company_name: 'Simba Developers',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'June 2021 - Dec 2021',
+    title: 'Tech Lead',
+    company_name: 'Synology',
+    icon: synology,
+    iconBg: '#FFFFFF',
+    date: 'May 2017 - Aug 2021',
   },
   {
-    title: 'B.tech CSE',
-    company_name: 'GNA University, Phagwara',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'July 2018 - June 2022',
+    title: 'BA International Studies',
+    company_name: 'Cal Poly Humboldt',
+    icon: hsu,
+    iconBg: '#FFFFFF',
+    date: '2010 - 2014',
   },
 ];
 

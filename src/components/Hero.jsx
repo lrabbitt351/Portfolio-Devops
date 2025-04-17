@@ -41,19 +41,20 @@ const Hero = () => {
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}
             >
-              Hi, I'm   
+              Hey there! I'm 
               <span
                 className="sm:text-battleGray sm:text-[5rem] 
                 text-eerieBlack text-[3rem] font-mova
                 font-extrabold uppercase"
-              >                
-                Manpreet
+              > 
+              <br className="sm:block hidden" />               
+                Leo Rabbitt
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-gray-500`}>
-              As a DevOps enthusiast, <br className="sm:block hidden" />I strive
+              As an engineer with a focus in DevOps, <br className="sm:block hidden" />I strive
               to streamline software development and operations by leveraging
-              automation, continuous integration, and deployment to deliver
+              automation, continuous integration, and deployments to deliver
               efficient and reliable solutions.
             </p>
           </div>

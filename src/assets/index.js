@@ -24,6 +24,9 @@ import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
+import kubernetes from './tech/kubernetes.png';
+import java from './tech/java.png';
+import python from './tech/python.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
@@ -33,10 +36,9 @@ import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import primevideo from './company/primevideo.png';
+import synology from './company/synology.png';
+import hsu from './company/hsu.png';
 
 import foundation from "./certificates/aws-academy-cloud-foundations.png";
 import practitioner from "./certificates/aws-certified-cloud-practitioner.png";
@@ -73,6 +75,9 @@ export {
   graphql,
   html,
   javascript,
+  kubernetes,
+  java,
+  python,
   nodejs,
   postgresql,
   rubyrails,
@@ -80,8 +85,7 @@ export {
   redux,
   tailwind,
   typescript,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  synology,
+  primevideo,
+  hsu
 };

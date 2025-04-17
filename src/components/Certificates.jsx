@@ -124,8 +124,8 @@ const Certificates = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies </p>
-        <h2 className={`${styles.sectionHeadTextLight}`}>Certificates.</h2>
+        <p className={`${styles.sectionSubText} `}>Check out... </p>
+        <h2 className={`${styles.sectionHeadTextLight}`}>My Certificates</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -133,8 +133,8 @@ const Certificates = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
         >
-          <span className="font-semibold">Certifications:</span> As a seasoned DevOps professional with
-          over a 1.5 - 2 years of experience, I proudly showcase my achievements,
+          <span className="font-semibold">Certifications:</span> As a seasoned cloud engineer with
+          over 3 years of experience, I proudly showcase my achievements,
           including AWS certifications, on my portfolio site. These
           certifications reflect my expertise in cloud technologies and further
           validate my commitment to delivering top-notch solutions in the

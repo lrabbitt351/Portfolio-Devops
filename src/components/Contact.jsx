@@ -33,9 +33,9 @@ const Contact = () => {
         "template_mzft68q", // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: "Manpreet", // put your name here.
+          to_name: "Leo", // put your name here.
           from_email: form.email,
-          to_email: "mk1835466@gmail.com", //put your email here.
+          to_email: "rabbitt.leo@gmail.com", //put your email here.
           message: form.message,
         },
         "lDhBS1x4uimiSDI3X" //paste your Public Key here. You'll get it in your profile section.
@@ -66,8 +66,8 @@ const Contact = () => {
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
+        <p className={styles.sectionSubText}>Want to get in touch?</p>
+        <h3 className={styles.sectionHeadTextLight}>Contact me here</h3>
 
         <form
           ref={formRef}
